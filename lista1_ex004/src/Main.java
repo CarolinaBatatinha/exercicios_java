@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 // Faça um algoritmo para ler dois números e realizar as operações aritméticas: adição, subtração e multiplicação.
 // Para cada operação o resultado deve ser impresso no vídeo.
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,6 +21,5 @@ public class Main {
         System.out.println(num1+ " - "+ num2 + " = " + subtracao);
         System.out.println(num1+ " x "+ num2 + " = " + multiplicacao);
         System.out.println(num1+ " ÷ "+ num2 + " = " + divisao);
-
     }
 }
